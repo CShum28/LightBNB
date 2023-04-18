@@ -4,9 +4,14 @@ const database = require("../db/database");
 const router = express.Router();
 
 router.get("/properties", (req, res) => {
+  // console.log(database.getAllProperties(req.query, 20)); //ADDED TO TEST
+
   database
     .getAllProperties(req.query, 20)
-    .then((properties) => res.send({ properties }))
+    .then((properties) => {
+      console.log('property values', properties);
+      res.send({ properties })
+    })
     .catch((e) => {
       console.error(e);
       res.send(e);
