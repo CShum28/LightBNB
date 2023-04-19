@@ -76,18 +76,23 @@ A simple multi-page Airbnb clone that uses a server-side Javascript to display t
 # Features
 
 - User can view a list of potential properties to rent
+
 !["Screenshot of properties"](https://github.com/CShum28/LightBNB/blob/master/LightBnB_WebApp/docs/properties.png)
 
 - User can login to their account
+
 !["Screenshot of login"](https://github.com/CShum28/LightBNB/blob/master/LightBnB_WebApp/docs/login.png)
 
 - User can create a new listing if they are logged in
+
 !["Screenshot of create a new listing"](https://github.com/CShum28/LightBNB/blob/master/LightBnB_WebApp/docs/create-listing.png)
 
 - User can sign up and create a new account
+
 !["Screenshot of sign up"](https://github.com/CShum28/LightBNB/blob/master/LightBnB_WebApp/docs/sign-up.png)
 
 - User can filter through the properties
+
 !["Screenshot of serach filters"](https://github.com/CShum28/LightBNB/blob/master/LightBnB_WebApp/docs/search.png)
 
 ## Dependencies
