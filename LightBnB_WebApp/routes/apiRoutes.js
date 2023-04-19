@@ -9,7 +9,6 @@ router.get("/properties", (req, res) => {
   database
     .getAllProperties(req.query, 20)
     .then((properties) => {
-      console.log('property values', properties);
       res.send({ properties })
     })
     .catch((e) => {
